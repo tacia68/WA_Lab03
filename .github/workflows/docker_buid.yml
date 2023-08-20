@@ -30,11 +30,10 @@ jobs:
           context: ./lab03_docker/
           push: true
           dockerfile: ./Dockerfile
-          tags: sherman/webacademy:latest
+          tags: tacia68/webacademy:latest
 
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Fazendo deploy
         run: echo "Deploy realizado com sucesso!"
-        
